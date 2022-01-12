@@ -9,18 +9,23 @@ body {
 .container {
   background-color: rgba(206, 192, 171, 0.863);
   width: 870px;
-  height: 679px;
   padding: 30px;
 }
 main {
   display: flex;
   justify-content: center;
 }
+hr {
+  border: 1px solid rgb(73, 134, 55);
+}
 /* -----------------------top-players style 
 ---------------------------------------------------*/
 .section-title {
   color: rgb(73, 134, 55);
   margin-top: 3px;
+}
+.top-players {
+  margin-bottom: 30px;
 }
 .players {
   display: grid;
@@ -38,4 +43,10 @@ main {
 .player-name {
   margin-left: 16px;
   font-size: 18px;
+}
+/*-------------------- top-blogs styles ----------
+--------------------------------------------------*/
+.blog .thumnail img {
+  width: 177px;
+  height: 117px;
 }

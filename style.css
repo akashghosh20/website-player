@@ -9,7 +9,10 @@ body {
 .container {
   background-color: rgba(206, 192, 171, 0.863);
   width: 870px;
-  height: 679px;
+}
+main {
+  display: flex;
+  justify-content: center;
 }
 /* -----------------------top-players style 
 ---------------------------------------------------*/

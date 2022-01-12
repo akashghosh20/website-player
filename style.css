@@ -77,3 +77,20 @@ hr {
   font-size: 16px;
   color: sienna;
 }
+/*---------------------------- courses styles----------------------------
+---------------------------------------------------------------------- */
+.course .course-banner img {
+  width: 224px;
+  height: 104px;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star.filled {
+  color: gold;
+}
+.fa-star.empty {
+  color: gray;
+}

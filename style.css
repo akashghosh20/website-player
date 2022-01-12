@@ -90,6 +90,9 @@ hr {
 }
 .course {
   width: 270px;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  background-color: slategray;
 }
 .course-info {
   display: flex;

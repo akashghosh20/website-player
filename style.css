@@ -11,6 +11,7 @@ body {
   width: 870px;
   padding: 30px;
   margin-top: 21px;
+  border-radius: 5px;
 }
 main {
   display: flex;

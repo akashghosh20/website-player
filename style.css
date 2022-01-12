@@ -83,6 +83,14 @@ hr {
   width: 224px;
   height: 104px;
 }
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course {
+  width: 270px;
+}
 .course-info {
   display: flex;
   align-items: center;
